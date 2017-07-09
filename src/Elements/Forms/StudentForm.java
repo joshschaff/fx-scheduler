@@ -1,9 +1,7 @@
-package Elements;
+package Elements.Forms;
 
+import Elements.ScheduleGrid;
 import Library.School;
-import javafx.scene.control.Control;
-
-import java.util.ArrayList;
 
 /**
  * Created by josh on 6/10/17.

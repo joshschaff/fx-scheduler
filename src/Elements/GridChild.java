@@ -1,16 +1,12 @@
 package Elements;
 
+import Elements.Forms.CourseForm;
 import Library.*;
-import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.util.DoubleSummaryStatistics;
 import java.util.Optional;
-import java.util.stream.IntStream;
 
 /**
  * Created by josh on 6/9/17.

@@ -1,15 +1,13 @@
 package Elements;
 
+import Elements.Forms.TeacherForm;
 import Library.*;
-import javafx.scene.Node;
 import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.Pane;
 import javafx.scene.layout.Priority;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Type;
-import java.util.Arrays;
 import java.util.Optional;
 
 /**

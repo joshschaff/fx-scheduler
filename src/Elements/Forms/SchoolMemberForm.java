@@ -1,5 +1,7 @@
-package Elements;
+package Elements.Forms;
 
+import Elements.LabeledField;
+import Elements.ListManager;
 import Library.School;
 import Library.Student;
 import com.sun.istack.internal.Nullable;

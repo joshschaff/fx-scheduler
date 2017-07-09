@@ -1,15 +1,13 @@
-package Elements;
+package Elements.Forms;
 
+import Elements.ScheduleGrid;
 import Library.School;
-import Library.Teacher;
-
-import java.util.ArrayList;
 
 /**
  * Created by josh on 6/12/17.
  */
 public class TeacherForm<Teacher> extends SchoolMemberForm<Teacher> {
-    static final String[] acceptedFields = {"firstName", "lastName"};
+    private static final String[] acceptedFields = {"firstName", "lastName"};
 
     public TeacherForm(School school, Teacher selected){
         super(school, acceptedFields, school.getTeacherList(), selected, null);

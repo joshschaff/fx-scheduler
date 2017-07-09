@@ -1,24 +1,16 @@
 import Elements.*;
+import Elements.Forms.CourseForm;
+import Elements.Forms.StudentForm;
+import Elements.Forms.TeacherForm;
 import Library.*;
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventDispatchChain;
-import javafx.event.EventHandler;
 import javafx.geometry.Pos;
-import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.layout.Border;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import sun.security.jca.GetInstance;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.Optional;
-import java.util.stream.IntStream;
 
 import static Elements.DialogHelp.getIntDialog;
 import static Elements.DialogHelp.getStringDialog;

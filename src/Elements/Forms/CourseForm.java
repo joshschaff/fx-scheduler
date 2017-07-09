@@ -1,13 +1,10 @@
-package Elements;
+package Elements.Forms;
 
-import Elements.DialogHelp.*;
+import Elements.ListManager;
 import Library.School;
 import Library.Student;
-import javafx.scene.control.ChoiceDialog;
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 import static Elements.DialogHelp.getIntDialog;
 
